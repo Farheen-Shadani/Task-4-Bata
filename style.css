@@ -1,0 +1,274 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+/* first row of header */
+
+#row-1 {
+    background-color: red;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+#row-1 a {
+    color: white;
+    margin: 10px;
+}
+
+.nav-bar-1 {
+    text-align: left;
+    margin-left: 80px;
+}
+
+.nav-bar-2 {
+    text-align: right;
+    margin-right: 70px;
+}
+
+/* 2nd row of header */
+
+#row-2 {
+    margin: 30px 0px;
+}
+
+#search {
+    float: left;
+    margin-left: 80px;
+    padding: 25px 0px 5px 0px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 0.5px solid #b8b7b7;
+    color: #c2c2c2;
+    background-color: white;
+    font-size: 1em;
+}
+
+#search-icon {
+    color: #808080;
+    padding: 25px 0px 5px 10px;
+    font-size: 15px;
+}
+
+#cart {
+    float: right;
+    padding: 25px 0px 5px 10px;
+    margin-right: 70px;
+    color: black;
+}
+
+#cart-icon {
+    color: black;
+    padding: 25px 0px 5px 10px;
+    font-size: 40px;
+}
+
+/* 3rd row of header */
+
+#row-3 {
+    margin: 30px;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+#row-3 a {
+    color: black;
+    margin: 15px;
+}
+
+/* main content of page */
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+li {
+    list-style: none;
+}
+
+fieldset {
+    color: #6faff7;
+    padding: 40px;
+    margin: 25px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 29px;
+    font-family: Lora, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+#women-sec img {
+    height: 400px;
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+}
+
+#women-shoe, #men-shoe {
+    display: flex;
+    align-content: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ws-img, #ms-img {
+    justify-content: flex-start;
+    width: 80%;
+}
+
+#ws-data, #ms-data {
+    justify-content: flex-end;
+    width: 30%;
+}
+
+#ws-data, #ms-data {
+    display: inline-block;
+    color: #808080;
+    width: 40%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    font-size: 20px;
+}
+
+#ws-data>h4 {
+    text-decoration: underline;
+    text-decoration-color: #808080;
+}
+
+#ms-data>h4 {
+    text-decoration: underline;
+    text-decoration-color: #808080;
+}
+
+#everything-else div {
+    display: inline-block;
+    height: 400px;
+    width: 45%;
+    padding: 5px;
+    margin: 10px;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+#everything-else a {
+    color: white;
+}
+
+h3 {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+#left {
+    background-image: url("images/bag-shoes.jpg");
+    text-align: left;
+}
+
+#right {
+    background-image: url("images/kids.jpg");
+    text-align: right;
+}
+
+#brands img {
+    height: 400px;
+    width: 45%;
+    display: inline-block;
+    margin: 10px;
+}
+
+#collection img {
+    height: 400px;
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+}
+
+#social {
+    height: 500px;
+    padding: 0px;
+    margin: auto;
+}
+
+#social div {
+    justify-content: center;
+    height: auto;
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+}
+
+#news-box, #testimonials {
+    height: 200px;
+    color: rgb(34, 33, 33);
+    background-color: lightblue;
+    font-size: 25px;
+}
+
+/* footer stylisngs */
+
+footer {
+    background-color: #f1eded;
+    padding-top: 20px;
+}
+
+#newsletter {
+    border: 1px solid gray;
+    color: #aaa9a9;
+    background-color: white;
+    padding: 10px 100px 10px 5px;
+}
+
+#subscribe {
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    padding: 10px;
+    margin-left: -5px;
+}
+
+#email {
+    color: #4a4a4a;
+    padding: 0px 10px;
+}
+
+h4, h2 {
+    text-transform: uppercase;
+}
+
+#f2 {
+    display: table;
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.column {
+    display: table-cell;
+    text-align: left;
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#f3 {
+    text-align: left;
+    padding: 10px;
+}
+
+#f3 a {
+    color: blue;
+}
+
+#last-para {
+    padding: 2px;
+    margin: 0px;
+    color: white;
+    background-color: red;
+}

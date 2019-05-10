@@ -1,0 +1,51 @@
+/* #ws-img {
+    display: inline-block;
+} */
+
+/* 
+.ws-img {
+    height: 400px;
+    width: 60%;
+    margin: 0px;
+    padding: 0px;
+} */
+
+/* 
+#women-shoe div {
+    display: inline-block;
+    height: 400px;
+    width: 60%;
+    margin: 0px;
+    padding: 0px;
+} */
+
+/* #ws-img {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+} */
+
+/* #women-shoe {
+    display: flex;
+    align-content: center;
+} */
+
+#ws-img, ms-img {
+    height: 400px;
+    width: 55%;
+    display: inline-block;
+}
+
+#ws-data, #ms-data {
+    display: inline-block;
+    color: grey;
+    /* width: 40%;
+    height: auto;
+    margin: 0px;
+    padding: 0px; */
+    text-align: left;
+    font-size: 20px;
+}
